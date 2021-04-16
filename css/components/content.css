@@ -1,0 +1,68 @@
+h1 {
+  font-family: "Anton";
+  letter-spacing: 0.1em;
+}
+
+h3, 
+p {
+  font-family: "Montserrat";
+  margin-top: 5px;
+}
+
+p {
+  padding-top: 30px;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 10%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+}  
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.copy {
+  flex-basis: 40%;
+  position: relative;
+}
+
+.product{
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.product .controller{
+  width: 90%;
+}
+
+.color-box{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #000;
+  border-radius: 20px;
+  height: 100%;
+  width: 65%;
+  z-index: -1;
+  transform: translateX(150px);
+}
+
+.copy::after{
+  content: '';
+  width: 10px;
+  height: 65%;
+  background: #000;
+  position: absolute;
+  left: -40px;
+  top: 8px;
+}

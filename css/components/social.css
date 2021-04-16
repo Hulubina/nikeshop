@@ -1,0 +1,21 @@
+.social-links i{
+  margin: 20px;
+}
+
+.social-links{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#tw:hover {
+  color: #1DA1F2;
+}
+
+#fb:hover {
+  color: #4267B2;
+}
+
+#ig:hover {
+  color: #E1306C;
+}

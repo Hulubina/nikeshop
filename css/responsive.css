@@ -1,0 +1,62 @@
+@media only screen and (max-width:700px) {
+
+  nav ul {
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 2;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+  }
+  
+  #menu {
+    display: block;
+    width: 32px;
+    margin-right: 10px;
+  }
+  
+  #menuList {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  .content {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+  
+  .product {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .product .controller {
+    width: 77%;
+  }
+  
+  .color-box {
+    transform: translateX(75px);
+  }
+  
+  .copy {
+    flex-basis: 100%;
+  }
+  
+  .copy h2 {
+    font-size: 35px;
+  }
+  
+  .copy h3{ 
+    font-size: 15px;
+  }
+}

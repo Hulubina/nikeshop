@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>NIKE Air Force 1 Reveal&#174;</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <img src="images/nike-logo.png" id="logo">
+      <nav>
+        <ul id="menu-list">
+          <li><a href="https://www.nike.com" target="_blank">Store</a></li>
+          <li><a href="https://www.nike.com/w/air-force-1-5sj3y?vst=Air%20Force%201" target="_blank">Collections</a></li>
+          <li><a href="#modal-gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <img src="images/menu.png" id="menu" onclick="togglemenu()">
+    </div>
+
+    <div id="modal-gallery" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <div class="slider">
+            <div class="img-box">
+              <img src="images/gallery/nike-gallery-1.jpg" class="slider-img">
+            </div>
+            <div class="img-controllers">
+              <button class="btn-img" onclick="prev()">Prev</button>
+              <button class="btn-img" onclick="next()">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="content">
+      <div class="copy">
+        <h1>Nike Air Force 1 Reveal</h1>
+        <h3>Limited Edition</h3>
+        <p>Nike's most iconic sneaker reinvents itself in a design to discover tear by tear.</p>
+        <button type="button">Buy Now<img src="images/arrow.png"></button>
+      </div>
+      
+      <div class="product">
+        <img src="images/nike-reveal-white.png" id="nike-reveal">
+        <div class="color-box"></div>
+        <div class="add-btn">
+            <img src="images/add.png">
+            <p><small>Add to Cart</small></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="app">
+      <img src="images/nike-app-dwd.jpg" id="nike-app">
+      <div class="color-box-app">
+        <div class="app-payoff">
+          <h3>JUST DO IT</h3>
+          <p>Download our app and stay connected to the Nike world. Latest content delivered daily.</p>
+          <img src="images/nike-qr-app.PNG" id="nike-qr">
+        </div>
+      </div>
+    </div>
+
+    <div class="social-links">
+      <a id="fb" href="https://www.facebook.com/nike"><i class="fab fa-facebook-square"></i></a>
+      <a id="tw" href="https://twitter.com/nike"><i class="fab fa-twitter"></i></a>
+      <a id="ig" href="https://www.instagram.com/nike/"><i class="fab fa-instagram-square"></i></a>
+      <a id="yt" href="https://www.youtube.com/user/nike"><i class="fab fa-youtube"></i></i></a>
+    </div>
+  </div>
+
+  <script src="js/initToggleImage.js"></script>
+  <script src="js/initResponsiveMenu.js"></script>
+  <script src="js/initSlideshow.js"></script>
+  <script src="https://kit.fontawesome.com/38ac68c38c.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+@import url("components/navbar.css");
+@import url("components/content.css");
+@import url("components/buttons.css");
+@import url("components/social.css");
+@import url("components/modal.css");
+@import url("components/slider.css");
+@import url("components/app.css");
+
+@import url("responsive.css");
+
+*{
+  margin: 0;
+  padding: 0;
+}

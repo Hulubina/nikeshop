@@ -1,0 +1,32 @@
+#nike-app {
+  padding-top: 15px;
+  width: 25vw;
+}
+
+#nike-qr {
+  width: 6vw;
+  margin-top: 10px; 
+}
+
+.app {
+  position: relative;
+}
+
+.color-box-app {
+  position: absolute;
+  right: 19em;
+  top: 13em;
+  background: #000;
+  border-radius: 20px;
+  height: 40%;
+  width: 50%;
+  z-index: -1;
+}
+
+.app-payoff {
+  width: 50%;
+  position: absolute;
+  top: 1.8em;
+  left: 8em;
+  color: #fff;
+}

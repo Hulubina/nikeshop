@@ -1,0 +1,40 @@
+button{
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  color: #fff;
+  background: #000;
+  border-radius: 6px;
+  transition: width 0.5s;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+button img{
+  width: 30px;
+  display: none;
+}
+
+button:hover img{
+  display: block;
+}
+
+button:hover{
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6a136;
+}
+
+.add-btn img{
+  width: 35px;
+  margin-bottom: 5px;
+}
+
+.add-btn{
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}

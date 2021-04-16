@@ -1,0 +1,27 @@
+.slider {
+	margin: 50px auto;
+}
+ 
+.img-box img {
+	width: 100%;
+}
+
+.img-controllers {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .btn-img {
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;			 
+}
+
+.btn-img:hover {
+	background: #111;
+} */
